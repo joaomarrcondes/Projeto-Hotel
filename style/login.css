@@ -1,34 +1,95 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.div1{
+.div1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: #001b36;
 }
 
-#hotel{
+#hotel {
+    box-shadow: 3px 3px 3px black;
     width: 100%;
     height: 100vh;
     object-fit: cover;
 }
 
-.box{
-    border: 1px solid black;
+.box {
     max-width: 500px;
     text-align: center;
     margin-bottom: 300px;
 }
 
-.container{
+.container {
     display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center;
 }
 
-.textoPrincipal{
+#logo {
+    margin-top: 300px;
+    filter: brightness(180%);
+}
+
+.textoPrincipal {
+    text-shadow: 2px 2px 2px gray;
     font-size: 60px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+#icon-usuario {
+    filter: brightness(300%);
+}
+
+#icon-senha {
+    margin-right: 2px;
+    filter: brightness(300%);
+}
+
+.login {
+    text-shadow: 1px 1px 1px gray;
+    margin-bottom: 150px;
+    font-size: 35px;
+    text-align: left;
+    color: white;
+}
+
+#usuarioInput {
+    padding: 10px;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+#senhaInput {
+    padding: 10px;
+    width: 500px;
+}
+
+#entrar {
+    padding: 10px;
+    width: 500px;
+    font-size: 25px;
+    background-color: #054867;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.conta {
+    padding: 7px 0;
+    display: flex;
+    color: white;
+}
+
+#inscrever {
+    font-size: 23px;
+    color: dodgerblue;
+    margin: 0 10px;
+    font-weight: bold;
+    cursor: pointer;
 }
